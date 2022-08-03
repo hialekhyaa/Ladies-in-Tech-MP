@@ -463,8 +463,25 @@ nav .fa-solid
     
     .big-logo img
     {
-        height: 80%;
-        width: 80%;
+        height: 85%;
+        width: 85%;
     }
+    
+    .officer
+    {
+        padding-bottom: 30px;
+    }
+    
+    .mentor-img
+    {
+        padding-top: 30px;
+    }
+    
+    .insta
+    {
+        text-align: center;
+        padding-top: 30px;
+    }
+    
 }
 
