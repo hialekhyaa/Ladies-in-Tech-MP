@@ -251,51 +251,45 @@ nav .fa-solid
     font-size: 20px;
 }
 
-.list
+.orgs
 {
-    flex-basis: 32%;
-    text-align: left;
-    background-color: #e5989b;
-    position: relative;
-    overflow: hidden;
+    padding-top: 100px;
 }
 
-.list ul
+.sis
 {
-    padding: 20px;
+    padding-top: 50px;
+    margin-right: 50px;
+    background-color: #f7c7c9;
 }
 
-.list ul li
+.sis h2
 {
-    list-style: none;
-    color: #6d6875;
-    font-size: 20px;
-}
-
-.list span
-{
+    font-style: italic;
     color: #faf0e6;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
 }
 
-.list:hover
+
+.wwc
 {
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    padding-top: 50px;
+    margin-right: 20px;
 }
 
-.layer
+.wwc:hover
 {
-    background: transparent;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 0.5s;
+    transform: translate(0px, -5px);
+    opacity: .5;
 }
 
-.layer:hover
+
+.swe:hover
 {
-    background: rgba(181, 131, 141, 0.3);
+    transform: translate(0px, -5px);
+    opacity: .5;
 }
 
 .para
