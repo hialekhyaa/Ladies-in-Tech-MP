@@ -427,7 +427,7 @@ nav .fa-solid
     {
         position: fixed;
         background: #44345c;
-        height: 100vh;
+        height: 500px;
         width: 200px;
         top: 0;
         right: -200px;
@@ -465,6 +465,7 @@ nav .fa-solid
     {
         height: 85%;
         width: 85%;
+        padding-top: 200px;
     }
     
     .officer
@@ -480,8 +481,8 @@ nav .fa-solid
     .insta
     {
         text-align: center;
-        padding-top: 30px;
-        padding-right: 40px;
+        padding-top: 50px;
+        padding-right: 70px;
     }
     
 }
