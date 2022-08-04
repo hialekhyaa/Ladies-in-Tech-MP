@@ -423,6 +423,12 @@ nav .fa-solid
     {
         display: block;
     }
+    
+    .links ul li a
+    {
+        font-size: 30px;
+    }
+    
     .links
     {
         position: fixed;
@@ -448,6 +454,11 @@ nav .fa-solid
         padding-left: 95%;
     }
     
+    nav .fa-solid i
+    {
+        font-size: 30px;
+    }
+    
     .nav
     {
         height: 100px;
@@ -469,7 +480,7 @@ nav .fa-solid
     {
         height: 85%;
         width: 85%;
-        padding-top: 600px;
+        padding-top: 550px;
     }
     
     .officer
@@ -485,9 +496,13 @@ nav .fa-solid
     .insta
     {
         text-align: center;
-        padding-top: 60px;
-        padding-right: 90px;
+        margin-top: 30px;
+        margin-right: 90px;
     }
     
+    .foot h4
+    {
+        font-size: 30px;
+    }
 }
 
