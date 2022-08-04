@@ -181,7 +181,6 @@ nav .fa-solid
     margin: auto;
     padding: 100px;
     background-color: #f7c7c9;
-    background-image:
 }
 
 .mentors h1
@@ -196,6 +195,22 @@ nav .fa-solid
     background-color: #faf0e6;
     padding: 20px;
 }
+
+.apps-status
+{
+    background-color: #cc425c;
+    margin-left: 30px;
+}
+
+.apps-status h3
+{
+    color: #faf0e6;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    font-family: "itc eras std demi", futura, Roboto, "Segoe UI";
+}
+
 
 .mentees
 {
