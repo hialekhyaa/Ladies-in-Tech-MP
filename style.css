@@ -119,6 +119,13 @@ nav .fa-solid
     justify-content: space-between;
 }
 
+.unrow
+{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .big-logo
 {
     text-align: center;
