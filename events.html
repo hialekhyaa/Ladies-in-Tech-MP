@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <meta name="viewport" content="with=device-width, intial-scale=1.0">
+    <title>Ladies in Tech</title>
+    <link rel="stylesheet" href="style.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Roboto+Mono:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+            
+        <script src="https://kit.fontawesome.com/c6c48435c6.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        
+        <link rel="icon" type="image/x-icon" href="images/sqr.png">
+</head>
+
+<body>
+    
+<div class="container">
+<section class="ev-header">
+    <nav>
+        <div class="links" id="navLinks" data-aos="fade-down">
+            <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+            <ul>
+                <li> <a href="index.html">HOME</a></li>
+                <li> <a href="index.html#about" onclick="hideMenu()">ABOUT</a></li>
+                <li> <a href="index.html#mentors" onclick="hideMenu()">MENTORS</a></li>
+                <li> <a href="index.html#mentees" onclick="hideMenu()">MENTEES</a></li>
+                <li> <a href="events.html" onclick="hideMenu()">EVENTS</a></li>
+                <li> <a href="index.html#team" onclick="hideMenu()">TEAM</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="event-head" data-aos="fade-up">
+        <h1>Events</h1>
+    </div>
+        
+</section>
+
+<!---events--->
+
+<section class="events" id="events">
+    
+        <div>
+        </div>
+        
+</section>
+
+
+</div>
+
+<section class="foot" id="foot">
+    <h4>© 2022 | Ladies in Tech Mentoring Program</h4>
+    <div class="icons">
+        <a href="https://www.instagram.com/utdlitmp/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="mailto:utdlitmp@gmail.com" target="_blank"> <i class="fa-solid fa-envelope"></i></a>
+    </div>
+</section>
+
+    
+<!--- for menu --->
+<script>
+    
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+
+    
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init();
+ </script>
+    
+</body>
+
+</html>

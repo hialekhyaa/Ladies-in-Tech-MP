@@ -427,6 +427,45 @@ nav .fa-solid
 }
 
 
+.ev-header
+{
+    min-height: 50vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-color: #e0ccde;
+    position: relative;
+    background-image: url(images/back2.png);
+}
+
+.calendar-head
+{
+    margin: auto;
+    padding: 100px;
+    background-color: #faf0e6;
+    text-align: center;
+}
+
+.event-head
+{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.event-head h1
+{
+    font-family: "itc eras std demi", futura, Roboto, "Segoe UI";
+    color: #cc425c;
+    font-size: 40px;
+}
+
+.calendar
+{
+    
+}
+
+
+
 
 /* M E D I A */
 @media(max-width: 1000px)
