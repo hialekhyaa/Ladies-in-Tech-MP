@@ -464,6 +464,19 @@ nav .fa-solid
     
 }
 
+.events
+{
+    text-align: center;
+    background-color: #faf0e6;
+}
+
+.events img
+{
+    width: 30%;
+    height: 30%;
+    padding: 20px;
+}
+
 
 
 
