@@ -617,5 +617,10 @@ nav .fa-solid
     {
         width: 100%
     }
+    
+    .events p
+    {
+        font-size: 20px;
+    }
 }
 
