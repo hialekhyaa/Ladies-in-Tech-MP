@@ -612,5 +612,10 @@ nav .fa-solid
     {
         font-size: 30px;
     }
+    
+    #calendar
+    {
+        width: 100%
+    }
 }
 
