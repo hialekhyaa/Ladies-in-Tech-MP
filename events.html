@@ -16,6 +16,10 @@
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         
         <link rel="icon" type="image/x-icon" href="images/sqr.png">
+            
+        <!---calendar--->
+        <link rel="stylesheet" href="evo-calendar.min.css">
+        
 </head>
 
 <body>
@@ -30,25 +34,31 @@
                 <li> <a href="index.html#about" onclick="hideMenu()">ABOUT</a></li>
                 <li> <a href="index.html#mentors" onclick="hideMenu()">MENTORS</a></li>
                 <li> <a href="index.html#mentees" onclick="hideMenu()">MENTEES</a></li>
-                <li> <a href="events.html" onclick="hideMenu()">EVENTS</a></li>
+                <li> <a href="events.html#events" onclick="hideMenu()">EVENTS</a></li>
                 <li> <a href="index.html#team" onclick="hideMenu()">TEAM</a></li>
             </ul>
         </div>
         <i class="fa-solid fa-bars" onclick="showMenu()"></i>
     </nav>
+    
+    <!---
     <div class="event-head" data-aos="fade-up">
         <h1>Events</h1>
     </div>
-        
+    -->
+    
 </section>
 
 <!---events--->
 
 <section class="events" id="events">
-    
-        <div>
-            <img src="images/apps.jpeg">
+        
+        <div class="ev-title">
+            <h1>Calendar</h1>
+            <p>View our events below!</p>
         </div>
+    
+        <div id="calendar"></div>
         
 </section>
 
@@ -84,6 +94,62 @@
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  <script>
    AOS.init();
+ </script>
+
+ <!---calendar--->
+ 
+ <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+ <script src="evo-calendar.min.js"></script>
+ <script>
+     
+     $(document).ready(function() {
+         $('#calendar').evoCalendar({
+             
+             eventHeaderFormat: 'MM dd',
+             
+             
+             calendarEvents: [
+                /* EXAMPLE OF FORMAT FOR EVENTS!
+                 
+                   {
+                     id: 'bHay68s', // Event's ID (required)
+                     name: "New Year", // Event name (required)
+                     date: "January/1/2020", // Event date (required)
+                     type: "holiday", // Event type (required)
+                     everyYear: true // Same event every year (optional)
+                   },
+                   {
+                     name: "Vacation Leave",
+                     badge: "02/13 - 02/15", // Event badge (optional)
+                     date: ["February/13/2020", "February/15/2020"], // Date range
+                     description: "Vacation leave for 3 days.", // Event description (optional)
+                     type: "event",
+                     color: "#63d867" // Event custom color (optional)
+                   },
+                */
+                
+                   {
+                     id: 'mentor-apps', // Event's ID (required)
+                     name: "Mentor Apps Due!", // Event name (required)
+                     date: "August/27/2022", // Event date (required)
+                     type: "event", // Event type (required)
+                     description: "Sumbit your mentor applications by the end of today!",
+                     color: "#cc425c"
+                   },
+                              
+                   {
+                     id: 'game-social', // Event's ID (required)
+                     name: "Board Game Social!", // Event name (required)
+                     date: "April/28/2022", // Event date (required)
+                     type: "event", // Event type (required)
+                     description: "Join us for board games, popcorn, and fun before finals!<br><br>TIME: 5:00 PM<br>LOCATION: TBD",
+                     color: "#f1c4cd"
+                   }
+                 ]
+             
+         })
+     })
+     
  </script>
     
 </body>

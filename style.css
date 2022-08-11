@@ -28,10 +28,14 @@ html
  
  #e0ccde - lilac
  #44345c - dark purp
- #cc425c - dark pink
+  - dark pink
  
  #f1c4cd - light pink
  #e5ddf1
+ 
+ #ffb64e - yellow
+
+ 
 */
 
 /* H O M E */
@@ -426,7 +430,7 @@ nav .fa-solid
     opacity: 1;
 }
 
-
+/*
 .ev-header
 {
     min-height: 50vh;
@@ -437,7 +441,7 @@ nav .fa-solid
     position: relative;
     background-image: url(images/back2.png);
 }
-
+*/
 .calendar-head
 {
     margin: auto;
@@ -459,15 +463,10 @@ nav .fa-solid
     font-size: 40px;
 }
 
-.calendar
-{
-    
-}
-
 .events
 {
-    text-align: center;
     background-color: #faf0e6;
+    padding: 30px;
 }
 
 .events img
@@ -477,6 +476,37 @@ nav .fa-solid
     padding: 20px;
 }
 
+.ev-title
+{
+    text-align: center;
+}
+
+.ev-title h1
+{
+    font-size: 36px;
+    color: #44345c;
+    font-family: "itc eras std demi", futura, Roboto, "Segoe UI";
+}
+
+.ev-title p
+{
+    font-size: 24px;
+    color: #cc425c;
+    font-family: "itc eras std demi", futura, Roboto, "Segoe UI";
+    font-style: italic;
+    padding-bottom: 50px;
+}
+
+#calendar
+{
+    width: 80%;
+    position: relative;
+}
+
+.events p
+{
+    color: #cc425c;
+}
 
 
 
