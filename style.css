@@ -244,7 +244,7 @@ nav .fa-solid
 
 .team
 {
-    width: 80%;
+    width: 80%
     margin: auto;
     padding: 100px;
     background-color: #faf0e6;
@@ -375,8 +375,7 @@ nav .fa-solid
     transform: translate(-50%, -50%);
     z-index: -1;
     opacity: 0;
-    transition: top 0.5s;
-    opacity: 0.5s;
+    transition: top 0.5s, opacity: 0.5s;
 }
 
 .fa-brands:hover
@@ -416,8 +415,7 @@ nav .fa-solid
     transform: translate(-50%, -50%);
     z-index: -1;
     opacity: 0;
-    transition: top 0.5s;
-    opacity: 0.5s;
+    transition: top 0.5s, opacity: 0.5s;
 }
 
 .fa-envelope:hover
@@ -523,6 +521,7 @@ nav .fa-solid
     font-size: 36px;
     color: #cc425c;
     text-align: center;
+    highlight: #e0ccde;
 }
 
 .slider h2
