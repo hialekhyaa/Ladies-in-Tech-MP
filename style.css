@@ -505,6 +505,12 @@ nav .fa-solid
     position: relative;
 }
 
+.events p
+{
+    font-size: 15px;
+    color: #cc425c;
+}
+
 
 
 .slider
@@ -756,18 +762,15 @@ nav .fa-solid
     
     #calendar
     {
-        width: 100%;
+        width: 50%;
     }
     
     .events p
     {
-        font-size: 20px;
+        font-size: 15px;
     }
     
-    .events
-    {
-        display: hidden;
-    }
+    
     
 }
 
