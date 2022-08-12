@@ -467,6 +467,7 @@ nav .fa-solid
 {
     background-color: #faf0e6;
     padding: 30px;
+    padding-bottom: 50px;
 }
 
 .events img
@@ -514,6 +515,7 @@ nav .fa-solid
     position: relative;
     overflow: hidden;
     padding: 20px;
+    padding-top: 100px;
     padding-bottom: 50px;
     background-color: #e0ccde;
 }
