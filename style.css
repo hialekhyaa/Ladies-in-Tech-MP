@@ -558,6 +558,7 @@ nav .fa-solid
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
+   overflow-y: hidden;
 }
 
 .flyer-container::-webkit-scrollbar
