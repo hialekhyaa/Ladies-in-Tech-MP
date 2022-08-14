@@ -818,7 +818,10 @@ nav .fa-solid
         font-size: 15px;
     }
     
-    
+    .grid
+    {
+        gap: 50px;
+    }
     
 }
 
